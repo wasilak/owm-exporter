@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-IMAGE_NAME  := "rkosegi/owm-exporter"
+IMAGE_NAME  := "wasilak/owm-exporter"
 IMAGE_TAG   := "1.0.3"
 VER_CURRENT := $(shell git tag --sort=v:refname | tail -1 | sed -Ee 's/^v|-.*//')
 VER_PARTS   := $(subst ., ,$(VER_CURRENT))
